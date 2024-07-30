@@ -1,0 +1,11 @@
+{
+  "extends": "@barba-brutal/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "mocks"],
+  "exclude": ["node_modules", "dist"]
+}
