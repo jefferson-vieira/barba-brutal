@@ -24,6 +24,7 @@ module.exports = {
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: 'export' },
+      { blankLine: 'always', prev: '*', next: 'return' },
     ],
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/no-unused-vars': 'off',
